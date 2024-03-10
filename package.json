@@ -1,0 +1,33 @@
+{
+  "name": "node.js-passport-aunthentication",
+  "version": "1.0.0",
+  "description": "This is a node.js application for passport authentication",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "keywords": [
+    "Node.js",
+    "Express",
+    "mongoose",
+    "passport.js",
+    "authentication"
+  ],
+  "author": "akshayprajapati",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "dotenv": "^16.4.5",
+    "express": "^4.18.3",
+    "express-handlebars": "^7.1.2",
+    "express-session": "^1.18.0",
+    "handlebars": "^4.7.8",
+    "mongoose": "^8.2.1",
+    "passport": "^0.7.0",
+    "passport-local": "^1.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
